@@ -13,8 +13,10 @@ A simple script to increase the fpm to the optimal number of child processes bas
 
 # Usage:
 
-Normal run: `sudo ./fpm_pool_optimizer.sh`
+Download the file: `curl -O https://raw.githubusercontent.com/SidharthRaveendran/php-fpm-optimizer/refs/heads/master/main.sh`
 
-Dry run: `sudo ./fpm_pool_optimizer.sh -n` or `sudo ./fpm_pool_optimizer.sh --dry-run`
+Normal run: `sudo bash ./main.sh`
+
+Dry run: `sudo bash ./main.sh -n` or `sudo bash ./main.sh --dry-run`
 
 The dry run mode prints proposed changes without modifying the configuration.
